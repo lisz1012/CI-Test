@@ -14,6 +14,7 @@ public class MyServiceTest {
 	@Test
 	public void testAdd(){
 		Assertions.assertEquals(3, service.add(1, 2));
+		System.out.println("哈哈哈，通过了！");
 	}
 
 }
